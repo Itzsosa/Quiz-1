@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.general{
+    position: absolute;
+    width: auto;
+    float: left;
+}
+.header{
+    background-color: green;
+    width: 100%;
+    float: left;
+    height: 70px;
+}
+.footer{
+    background-color: blue;
+    width: 100%;
+    float: left;
+    height: 70px;
+}
+.main{
+    background-color: gray;
+    width: 100%;
+    float: left;
+    height: 300px;
+}
+.menu{
+    background-color: aqua;
+    width: 25%;
+    float: left;
+}
+.dashboard{
+    background-color: chocolate;
+    width: 50%;
+    float: left;
+}
+.rss{
+    background-color: darkolivegreen;
+    width: 25%;
+    float: left;   
+}
+
+.messinio{
+    width: 70%;
+    float: center;    
+}
+
+.messitxt{
+    font-family: 'Courier New', Courier, monospace;
+}
