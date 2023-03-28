@@ -9,37 +9,45 @@
     float: left;
 }
 .header{
-    background-color: green;
+    background-color: black;
     width: 100%;
     float: left;
     height: 70px;
+    color: lightgoldenrodyellow;
+    
 }
 .footer{
-    background-color: blue;
+    background-color: black;
     width: 100%;
-    float: left;
+    display: flex;
+    flex-direction: column;
     height: 70px;
+    color: lightgoldenrodyellow;
+    
+   
 }
 .main{
-    background-color: gray;
+    background-color: #fafad2;
     width: 100%;
     float: left;
     height: 300px;
+    color: black;
 }
 .menu{
-    background-color: aqua;
     width: 25%;
     float: left;
+    border-right: 1px solid lightcoral;
 }
 .dashboard{
-    background-color: chocolate;
+    
     width: 50%;
     float: left;
+  
 }
 .rss{
-    background-color: darkolivegreen;
     width: 25%;
     float: left;   
+    border-left: 1px solid lightcoral;
 }
 
 .messinio{
@@ -49,4 +57,7 @@
 
 .messitxt{
     font-family: 'Courier New', Courier, monospace;
+}
+a:hover {
+ color: lightcoral;
 }
