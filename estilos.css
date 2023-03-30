@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .general{
@@ -8,29 +9,20 @@
     width: auto;
     float: left;
 }
+
 .header{
     background-color: #79c9e0;
     width: 100%;
     float: left;
     height: 70px;
-    color: black;
-    
+    color: black;    
 }
-.footer{
-    background-color: #79c9e0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: 70px;
-    color: black;
-    
-   
-}
+
 .main{
     background-color:#efefef;
     width: 100%;
     float: left;
-    height: 300px;
+    height: 500px;
     color: black;
 }
 .menu{
@@ -43,7 +35,6 @@
     background-color: #efefef;
     width: 50%;
     float: left;
-  
 }
 .rss{
     background-color: #efefef;
@@ -54,12 +45,20 @@
 
 .messinio{
     width: 70%;
-    float: center;    
+    float: left;    
 }
 
-.messitxt{
-    font-family: 'Courier New', Courier, monospace;
+.footer{
+    background-color: #79c9e0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    color: black;
+    position: fixed;
+    bottom: 0;
 }
+
 a:hover {
- color: lightcoral;
+    color: lightcoral;
 }
