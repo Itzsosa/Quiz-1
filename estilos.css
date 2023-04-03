@@ -37,6 +37,7 @@
     background-color: #efefef;
     width: 50%;
     float: left;
+    text-align: center;
 }
 .rss{
     background-color: #efefef;
@@ -46,8 +47,13 @@
 }
 
 .messinio{
-    width: 70%;
-    float: left;    
+    max-width: 70%;
+    height: auto;
+    /*
+    float: left;
+    */
+    display: block;
+    margin: auto;
 }
 
 .footer{
