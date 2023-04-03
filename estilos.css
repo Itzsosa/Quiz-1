@@ -176,3 +176,16 @@ ul li a.active {
         display: block;
     }
 }
+
+.curio{
+    max-width: 1350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;   
+}
+.curio p{
+    text-align:justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
