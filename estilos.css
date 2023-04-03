@@ -23,7 +23,7 @@
     background-color:#efefef;
     width: 100%;
     float: left;
-    height: 500px;
+    height: 700px;
     color: black;
 }
 
@@ -189,3 +189,49 @@ ul li a.active {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.container-form{
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 20px;
+    font-size: 35px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 2.0;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: solid;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: rgb(63, 133, 160);
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid skyblue;
+    margin-bottom: 20px;
+}
+.container-form form textarea{
+    height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    border: none;
+    background: rgb(63, 133, 160);
+    color: white;
+    cursor: pointer; 
+}
+
