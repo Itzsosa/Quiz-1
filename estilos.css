@@ -252,3 +252,24 @@ ul li a.active {
     text-decoration: none;
     color: white;
 }
+.contenedor{
+    float: left;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.contenedor img {
+    padding-top: 8%;
+    height: 80%;
+    width: 80%;   
+}
+
+.centrado{
+    position: absolute;
+    font-size: x-large;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+}
